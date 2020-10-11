@@ -1,3 +1,4 @@
+
 #include<algorithm>
 #include<numeric>
 #include<iterator>
@@ -28,7 +29,7 @@ int makeans(int* ans){
       continue;
     }
   }
- 
+  return 
 }//三つの乱数を持ってきてかぶったらやりなおしする。
 
 int main (){
