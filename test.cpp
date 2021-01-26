@@ -18,7 +18,7 @@ inline int nines(){
   return rand() % 9 + 1;
 }//この二つで乱数を設定する。
 
-int makeans(int* ans){
+void makeans(int* ans){
   while(1){
     FOR(i,0,3){
     ans[i] = nines();
@@ -28,8 +28,7 @@ int makeans(int* ans){
     }else{
       continue;
     }
-  }
-  return 
+  } 
 }//三つの乱数を持ってきてかぶったらやりなおしする。
 
 int main (){
